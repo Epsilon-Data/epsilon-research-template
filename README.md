@@ -7,16 +7,11 @@ A ready-to-use template for privacy-preserving data research with the Epsilon SD
 ## 🚀 Quick Start
 
 1. **Click "Use this template"** above to create your research project
-2. **Clone your new repository**:
-   ```bash
-   git clone https://github.com/Epsilon-Data/epsilon-reserach-template
-   cd epsilon-reserach-template
-   ```
-3. **Install the Epsilon SDK**:
+2. **Install the Epsilon SDK**:
    ```bash
    pip install -r requirements.txt
    ```
-4. **Start researching**:
+3. **Start researching**:
    ```bash
    # Login to Epsilon platform
    epsilon login
