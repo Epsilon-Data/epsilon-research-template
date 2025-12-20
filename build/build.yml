@@ -1,0 +1,22 @@
+version: '1.0'
+analysis:
+  name: Main
+  description: Analysis from main.py
+  script_file: main.py
+  requirements: requirements.txt
+datasets:
+- dataset_id: abba2a16-7410-4a28-8607-83c23568c3b3
+  package_id: test_QhTAV0
+  import_path: generated.models
+  function_name: create_dataset
+  archetype_path: generated/archetype.json
+privacy:
+  epsilon: 1.0
+execution:
+  environment: enclave
+  timeout: 300
+generated_at: '2025-12-15 13:40:24.943746'
+build_info:
+  command: epsilon build main.py
+  detected_datasets: 1
+  original_script: main.py

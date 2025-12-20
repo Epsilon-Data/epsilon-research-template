@@ -15,17 +15,14 @@ A ready-to-use template for privacy-preserving data research with the Epsilon SD
    ```bash
    # Login to Epsilon platform
    epsilon login
-   
    # See available datasets
    epsilon datasets
-   
-   # Download healthcare dataset example
+   # Download dataset example
    epsilon init <dataset_id>
    # Run 
    epsilon run
    # Build for deployment
    epsilon build
-   
    # Change Server (you can use local server api ex : http://localhost:3334) 
    epsilon change-server <server_url>
    ```

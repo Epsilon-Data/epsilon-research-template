@@ -1,0 +1,21 @@
+{
+  "$id": "vfFIcMYUIwD4",
+  "$schema": "https://json-schema.org/draft/2020-12/schema#",
+  "title": "epsilon",
+  "type": "object",
+  "properties": {
+    "patient": {
+      "type": "object",
+      "properties": {
+        "age": {
+          "type": "integer",
+          "description": "Age"
+        },
+        "bloodpressure": {
+          "type": "object",
+          "description": "BloodPressure"
+        }
+      }
+    }
+  }
+}
